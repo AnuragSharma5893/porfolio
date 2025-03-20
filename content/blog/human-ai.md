@@ -1,6 +1,6 @@
 ---
 date: '2025-03-07T16:39:10+05:30'
-draft: true
+draft: false
 title: 'Human Ai'
 cover:
     image: /blog/human-brain.png
