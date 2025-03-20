@@ -1,7 +1,5 @@
 ---
 title: "Contact Me👋"
-layout: "contact"
-description: "Get in touch with Anurag Sharma."
 ---
 
 # 📬 Get in Touch
