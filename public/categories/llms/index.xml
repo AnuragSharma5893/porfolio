@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLMs on Anurag Sharma</title>
+    <link>http://localhost:1313/categories/llms/</link>
+    <description>Recent content in LLMs on Anurag Sharma</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/llms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogs</title>
+      <link>http://localhost:1313/project/blog/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/project/blog/</guid>
+      <description>&lt;h2 id=&#34;-personal-blog-website&#34;&gt;🔹 &lt;strong&gt;Personal Blog Website&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;GitHub Pages-powered blog&lt;/strong&gt; built using &lt;strong&gt;Jekyll&lt;/strong&gt;, where I share my thoughts on &lt;strong&gt;AI, psychology, NLP, and technology&lt;/strong&gt;. The blog serves as a platform to document my learning journey, research insights, and experiences in &lt;strong&gt;machine learning and human cognition&lt;/strong&gt;. It is continuously updated with &lt;strong&gt;new articles, project write-ups, and technical deep dives&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt; Jekyll, Markdown, GitHub Pages, HTML, CSS&lt;/p&gt;
+&lt;p&gt;👉 &lt;strong&gt;&lt;a href=&#34;https://anuragsharma5893.github.io/&#34;&gt;Visit My Blog&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Companion</title>
+      <link>http://localhost:1313/project/llm/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/project/llm/</guid>
+      <description>&lt;h2 id=&#34;llm-model-a-game-changer-to-the-world-of-ai&#34;&gt;LLM Model a game changer to the world of AI&lt;/h2&gt;
+&lt;h1 id=&#34;llm_model&#34;&gt;LLM_model&lt;/h1&gt;
+&lt;p&gt;This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b&lt;/p&gt;
+&lt;h1 id=&#34;-deepseek-code-companion&#34;&gt;🧠 DeepSeek Code Companion&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://streamlit.io/&#34;&gt;&lt;img alt=&#34;Streamlit&#34; loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&amp;logoColor=white&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://python.langchain.com/&#34;&gt;&lt;img alt=&#34;LangChain&#34; loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/LangChain-00ADD8?logo=langchain&amp;logoColor=white&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://ollama.ai/&#34;&gt;&lt;img alt=&#34;Ollama&#34; loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/Ollama-FFFFFF?logo=ollama&amp;logoColor=black&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://opensource.org/licenses/MIT&#34;&gt;&lt;img alt=&#34;License: MIT&#34; loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/License-MIT-yellow.svg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Demo Screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/AnuragSharma5893/LLM_model/blob/main/ui%20(2).png?raw=true&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🚀 Multi-model support (DeepSeek, LLaVA, Llama3)&lt;/li&gt;
+&lt;li&gt;🔥 Real-time code debugging assistance&lt;/li&gt;
+&lt;li&gt;📝 Automatic code documentation generation&lt;/li&gt;
+&lt;li&gt;💡 Intelligent solution design suggestions&lt;/li&gt;
+&lt;li&gt;🎨 Streamlit-powered chat interface with dark theme&lt;/li&gt;
+&lt;li&gt;⚙️ Customizable model parameters (temperature, model size)&lt;/li&gt;
+&lt;li&gt;📚 Context-aware conversation history&lt;/li&gt;
+&lt;li&gt;🖥️ Local LLM deployment via Ollama&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

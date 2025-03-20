@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Code Companion | Anurag Sharma</title>
+<meta name="keywords" content="">
+<meta name="description" content="LLM Model a game changer to the world of AI
+LLM_model
+This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b
+🧠 DeepSeek Code Companion
+ 
+
+
+Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.
+
+Features
+
+🚀 Multi-model support (DeepSeek, LLaVA, Llama3)
+🔥 Real-time code debugging assistance
+📝 Automatic code documentation generation
+💡 Intelligent solution design suggestions
+🎨 Streamlit-powered chat interface with dark theme
+⚙️ Customizable model parameters (temperature, model size)
+📚 Context-aware conversation history
+🖥️ Local LLM deployment via Ollama
+
+Installation
+
+
+Prerequisites:">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/project/llm/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.03ed8cfd73fb122de8ecdaba59f45250f8502c34da4586a14c13905e05ea6923.css" integrity="sha256-A&#43;2M/XP7Ei3o7Nq6WfRSUPhQLDTaRYahTBOQXgXqaSM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/project/llm/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/project/llm/">
+  <meta property="og:site_name" content="Anurag Sharma">
+  <meta property="og:title" content="Code Companion">
+  <meta property="og:description" content="LLM Model a game changer to the world of AI LLM_model This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b
+🧠 DeepSeek Code Companion Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.
+Features 🚀 Multi-model support (DeepSeek, LLaVA, Llama3) 🔥 Real-time code debugging assistance 📝 Automatic code documentation generation 💡 Intelligent solution design suggestions 🎨 Streamlit-powered chat interface with dark theme ⚙️ Customizable model parameters (temperature, model size) 📚 Context-aware conversation history 🖥️ Local LLM deployment via Ollama Installation Prerequisites:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="project">
+    <meta property="article:published_time" content="2025-02-12T00:00:00+08:00">
+    <meta property="article:modified_time" content="2025-02-12T00:00:00+08:00">
+    <meta property="og:image" content="http://localhost:1313/projects/code.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/projects/code.png">
+<meta name="twitter:title" content="Code Companion">
+<meta name="twitter:description" content="LLM Model a game changer to the world of AI
+LLM_model
+This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b
+🧠 DeepSeek Code Companion
+ 
+
+
+Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.
+
+Features
+
+🚀 Multi-model support (DeepSeek, LLaVA, Llama3)
+🔥 Real-time code debugging assistance
+📝 Automatic code documentation generation
+💡 Intelligent solution design suggestions
+🎨 Streamlit-powered chat interface with dark theme
+⚙️ Customizable model parameters (temperature, model size)
+📚 Context-aware conversation history
+🖥️ Local LLM deployment via Ollama
+
+Installation
+
+
+Prerequisites:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/project/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Code Companion",
+      "item": "http://localhost:1313/project/llm/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Code Companion",
+  "name": "Code Companion",
+  "description": "LLM Model a game changer to the world of AI LLM_model This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b\n🧠 DeepSeek Code Companion Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.\nFeatures 🚀 Multi-model support (DeepSeek, LLaVA, Llama3) 🔥 Real-time code debugging assistance 📝 Automatic code documentation generation 💡 Intelligent solution design suggestions 🎨 Streamlit-powered chat interface with dark theme ⚙️ Customizable model parameters (temperature, model size) 📚 Context-aware conversation history 🖥️ Local LLM deployment via Ollama Installation Prerequisites:\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "LLM Model a game changer to the world of AI LLM_model This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b\n🧠 DeepSeek Code Companion Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.\nFeatures 🚀 Multi-model support (DeepSeek, LLaVA, Llama3) 🔥 Real-time code debugging assistance 📝 Automatic code documentation generation 💡 Intelligent solution design suggestions 🎨 Streamlit-powered chat interface with dark theme ⚙️ Customizable model parameters (temperature, model size) 📚 Context-aware conversation history 🖥️ Local LLM deployment via Ollama Installation Prerequisites:\nOllama installed and running Python 3.9+ environment Clone the repository: bash git clone https://github.com/yourusername/deepseek-code-companion.git cd deepseek-code-companion\nInstall dependencies:\npip install -r requirements.txt Pull desired models (example for DeepSeek 1.5B): ollama pull deepseek-r1:1.5b Usage Start the Streamlit app: streamlit run app.py Configure settings in the sidebar:\nSelect model variant (1.5B, 3B, 32B) Adjust temperature for creativity control View model capabilities Interact with the chat interface:\nType coding questions or paste error messages Get AI-powered solutions with debugging support Clear chat history as needed Configuration Available Models Model Name Size Best For deepseek-r1:1.5b 1.5B Quick answers, basic code deepseek-r1:3b 3B Balanced performance deepseek-r1:32b 32B Complex problem solving llava:latest 7B Multimodal tasks llama3.2:latest 70B Advanced reasoning Temperature Guide Low (0.0-0.3): Factual, deterministic responses Medium (0.4-0.6): Balanced creativity High (0.7-1.0): Creative solutions, experimental code Technologies Used Streamlit: Web interface and chat management LangChain: LLM pipeline orchestration Ollama: Local LLM deployment and management DeepSeek Models: Specialized coding AI models Custom CSS: Styled chat interface and components Contributing Contributions are welcome! Please follow these steps:\nFork the repository Create your feature branch (git checkout -b feature/amazing-feature) Commit your changes (git commit -m 'Add some amazing feature') Push to the branch (git push origin feature/amazing-feature) Open a Pull Request License Distributed under the MIT License. See LICENSE for more information.\nAcknowledgements Ollama team for seamless local LLM management LangChain for LLM orchestration framework DeepSeek for their specialized coding models Streamlit for rapid UI development Note: Ensure Ollama server is running at http://localhost:11434 before starting the app. Custom CSS styling can be modified in the app.py header section.\n",
+  "wordCount" : "351",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/projects/code.png","datePublished": "2025-02-12T00:00:00+08:00",
+  "dateModified": "2025-02-12T00:00:00+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/project/llm/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Anurag Sharma",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Anurag Sharma (Alt + H)">Anurag Sharma</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/education/" title="Education">
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/project/" title="Project">
+                    <span>Project</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/project/">Projects</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Code Companion
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta"><span title='2025-02-12 00:00:00 +0800 +0800'>February 12, 2025</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/projects/code.png" alt="This is a demo image">
+        <p>This is a demo img</p>
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#llm-model-a-game-changer-to-the-world-of-ai" aria-label="LLM Model a game changer to the world of AI">LLM Model a game changer to the world of AI</a></li></ul>
+                    
+                <li>
+                    <a href="#llm_model" aria-label="LLM_model">LLM_model</a></li>
+                <li>
+                    <a href="#-deepseek-code-companion" aria-label="🧠 DeepSeek Code Companion">🧠 DeepSeek Code Companion</a><ul>
+                        
+                <li>
+                    <a href="#features" aria-label="Features">Features</a></li>
+                <li>
+                    <a href="#installation" aria-label="Installation">Installation</a></li>
+                <li>
+                    <a href="#usage" aria-label="Usage">Usage</a></li>
+                <li>
+                    <a href="#configuration" aria-label="Configuration">Configuration</a><ul>
+                        
+                <li>
+                    <a href="#available-models" aria-label="Available Models">Available Models</a></li>
+                <li>
+                    <a href="#temperature-guide" aria-label="Temperature Guide">Temperature Guide</a></li></ul>
+                </li>
+                <li>
+                    <a href="#technologies-used" aria-label="Technologies Used">Technologies Used</a></li>
+                <li>
+                    <a href="#contributing" aria-label="Contributing">Contributing</a></li>
+                <li>
+                    <a href="#license" aria-label="License">License</a></li>
+                <li>
+                    <a href="#acknowledgements" aria-label="Acknowledgements">Acknowledgements</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="llm-model-a-game-changer-to-the-world-of-ai">LLM Model a game changer to the world of AI<a hidden class="anchor" aria-hidden="true" href="#llm-model-a-game-changer-to-the-world-of-ai">#</a></h2>
+<h1 id="llm_model">LLM_model<a hidden class="anchor" aria-hidden="true" href="#llm_model">#</a></h1>
+<p>This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b</p>
+<h1 id="-deepseek-code-companion">🧠 DeepSeek Code Companion<a hidden class="anchor" aria-hidden="true" href="#-deepseek-code-companion">#</a></h1>
+<p><a href="https://streamlit.io/"><img alt="Streamlit" loading="lazy" src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white"></a> <a href="https://python.langchain.com/"><img alt="LangChain" loading="lazy" src="https://img.shields.io/badge/LangChain-00ADD8?logo=langchain&logoColor=white"></a>
+<a href="https://ollama.ai/"><img alt="Ollama" loading="lazy" src="https://img.shields.io/badge/Ollama-FFFFFF?logo=ollama&logoColor=black"></a>
+<a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" loading="lazy" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a></p>
+<p>Your AI-powered pair programmer with advanced debugging capabilities and code optimization features.</p>
+<p><img alt="Demo Screenshot" loading="lazy" src="https://github.com/AnuragSharma5893/LLM_model/blob/main/ui%20(2).png?raw=true"></p>
+<h2 id="features">Features<a hidden class="anchor" aria-hidden="true" href="#features">#</a></h2>
+<ul>
+<li>🚀 Multi-model support (DeepSeek, LLaVA, Llama3)</li>
+<li>🔥 Real-time code debugging assistance</li>
+<li>📝 Automatic code documentation generation</li>
+<li>💡 Intelligent solution design suggestions</li>
+<li>🎨 Streamlit-powered chat interface with dark theme</li>
+<li>⚙️ Customizable model parameters (temperature, model size)</li>
+<li>📚 Context-aware conversation history</li>
+<li>🖥️ Local LLM deployment via Ollama</li>
+</ul>
+<h2 id="installation">Installation<a hidden class="anchor" aria-hidden="true" href="#installation">#</a></h2>
+<ol>
+<li>
+<p><strong>Prerequisites</strong>:</p>
+<ul>
+<li><a href="https://ollama.ai/">Ollama</a> installed and running</li>
+<li>Python 3.9+ environment</li>
+</ul>
+</li>
+<li>
+<p>Clone the repository:
+bash
+git clone <a href="https://github.com/yourusername/deepseek-code-companion.git">https://github.com/yourusername/deepseek-code-companion.git</a>
+cd deepseek-code-companion</p>
+</li>
+<li>
+<p>Install dependencies:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div><ol start="4">
+<li>Pull desired models (example for DeepSeek 1.5B):</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull deepseek-r1:1.5b
+</span></span></code></pre></div><h2 id="usage">Usage<a hidden class="anchor" aria-hidden="true" href="#usage">#</a></h2>
+<ol>
+<li>Start the Streamlit app:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>streamlit run app.py
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>Configure settings in the sidebar:</p>
+<ul>
+<li>Select model variant (1.5B, 3B, 32B)</li>
+<li>Adjust temperature for creativity control</li>
+<li>View model capabilities</li>
+</ul>
+</li>
+<li>
+<p>Interact with the chat interface:</p>
+<ul>
+<li>Type coding questions or paste error messages</li>
+<li>Get AI-powered solutions with debugging support</li>
+<li>Clear chat history as needed</li>
+</ul>
+</li>
+</ol>
+<h2 id="configuration">Configuration<a hidden class="anchor" aria-hidden="true" href="#configuration">#</a></h2>
+<h3 id="available-models">Available Models<a hidden class="anchor" aria-hidden="true" href="#available-models">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Model Name</th>
+          <th>Size</th>
+          <th>Best For</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>deepseek-r1:1.5b</code></td>
+          <td>1.5B</td>
+          <td>Quick answers, basic code</td>
+      </tr>
+      <tr>
+          <td><code>deepseek-r1:3b</code></td>
+          <td>3B</td>
+          <td>Balanced performance</td>
+      </tr>
+      <tr>
+          <td><code>deepseek-r1:32b</code></td>
+          <td>32B</td>
+          <td>Complex problem solving</td>
+      </tr>
+      <tr>
+          <td><code>llava:latest</code></td>
+          <td>7B</td>
+          <td>Multimodal tasks</td>
+      </tr>
+      <tr>
+          <td><code>llama3.2:latest</code></td>
+          <td>70B</td>
+          <td>Advanced reasoning</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="temperature-guide">Temperature Guide<a hidden class="anchor" aria-hidden="true" href="#temperature-guide">#</a></h3>
+<ul>
+<li><strong>Low (0.0-0.3)</strong>: Factual, deterministic responses</li>
+<li><strong>Medium (0.4-0.6)</strong>: Balanced creativity</li>
+<li><strong>High (0.7-1.0)</strong>: Creative solutions, experimental code</li>
+</ul>
+<h2 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h2>
+<ul>
+<li><strong>Streamlit</strong>: Web interface and chat management</li>
+<li><strong>LangChain</strong>: LLM pipeline orchestration</li>
+<li><strong>Ollama</strong>: Local LLM deployment and management</li>
+<li><strong>DeepSeek Models</strong>: Specialized coding AI models</li>
+<li><strong>Custom CSS</strong>: Styled chat interface and components</li>
+</ul>
+<h2 id="contributing">Contributing<a hidden class="anchor" aria-hidden="true" href="#contributing">#</a></h2>
+<p>Contributions are welcome! Please follow these steps:</p>
+<ol>
+<li>Fork the repository</li>
+<li>Create your feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+<li>Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
+<li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+<li>Open a Pull Request</li>
+</ol>
+<h2 id="license">License<a hidden class="anchor" aria-hidden="true" href="#license">#</a></h2>
+<p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
+<h2 id="acknowledgements">Acknowledgements<a hidden class="anchor" aria-hidden="true" href="#acknowledgements">#</a></h2>
+<ul>
+<li>Ollama team for seamless local LLM management</li>
+<li>LangChain for LLM orchestration framework</li>
+<li>DeepSeek for their specialized coding models</li>
+<li>Streamlit for rapid UI development</li>
+</ul>
+<hr>
+<p><strong>Note</strong>: Ensure Ollama server is running at <code>http://localhost:11434</code> before starting the app. Custom CSS styling can be modified in the app.py header section.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Anurag Sharma</a></span>
+
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
