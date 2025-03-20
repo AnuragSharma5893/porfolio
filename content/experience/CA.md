@@ -1,6 +1,6 @@
 ---
 title : "Campus Ambassador Program"
-draft: true
+draft: false
 weight: 11
 ---
 

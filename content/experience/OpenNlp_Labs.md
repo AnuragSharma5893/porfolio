@@ -1,6 +1,6 @@
 ---
 title : "Full-Stack Developer/Machine Learning Intern"
-draft: true
+draft: false
 weight: 2
 ---
 

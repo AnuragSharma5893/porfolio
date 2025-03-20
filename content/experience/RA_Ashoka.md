@@ -1,6 +1,6 @@
 ---
 title : "Research Assistant at Ashoka University"
-draft: true
+draft: false
 weight: 4
 ---
 

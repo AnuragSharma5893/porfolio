@@ -1,9 +1,7 @@
 ---
 title: "Computer Science & Engineering 👨‍💻"
-draft: true
+draft: false
 categories: [Education]
-cover: 
-    image: 
 --- 
 
 > University:- [Dr. A.P.J. Abdul Kalam Technical University, Lucknow](https://en.wikipedia.org/wiki/Dr._A._P._J._Abdul_Kalam_Technical_University,_Lucknow)

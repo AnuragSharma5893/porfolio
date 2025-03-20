@@ -1,6 +1,6 @@
 ---
 title : "Research Assistant at Carnegie Mellon University"
-draft: true
+draft: false
 weight: 3
 ---
 

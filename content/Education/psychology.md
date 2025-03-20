@@ -1,9 +1,7 @@
 ---
 title: "B.A.(Hons) Psychology 🧠"
-draft: true
+draft : false 
 categories: [Education]
-cover: 
-    image: 
 --- 
 - University:- [Indira Gandhi National Open University](https://en.wikipedia.org/wiki/Indira_Gandhi_National_Open_University) 
 - [Link](https://www.ignou.ac.in/)
